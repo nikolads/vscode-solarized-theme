@@ -1,0 +1,26 @@
+{
+    "name": "solarized-improved",
+    "displayName": "Solarized Improved",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Light Improved",
+                "uiTheme": "vs",
+                "path": "./themes/solarized-light-improved-color-theme.json"
+            },
+            {
+                "label": "Solarized Dark Improved",
+                "uiTheme": "vs-dark",
+                "path": "./themes/solarized-dark-improved-color-theme.json"
+            }
+        ]
+    }
+}
