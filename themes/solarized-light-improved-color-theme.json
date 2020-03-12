@@ -20,6 +20,7 @@
 		"editor.lineHighlightBorder": "#fdf6e3",
 		"editor.selectionBackground": "#eee8d5",
 		"editorCursor.foreground": "#657b83",
+		"editorCursor.background": "#fdf6e3",
 		"editorGroup.border": "#ddd6c1",
 		"editorGroup.dropBackground": "#ddd6c1aa",
 		"editorGroupHeader.tabsBackground": "#d9d2c2",
