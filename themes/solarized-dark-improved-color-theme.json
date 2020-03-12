@@ -19,7 +19,7 @@
 		"editor.selectionHighlightBackground": "#005a6faa",
 		"editor.wordHighlightBackground": "#004454aa",
 		"editor.wordHighlightStrongBackground": "#005a6faa",
-		"editorCursor.foreground": "#839496",
+		"editorCursor.foreground": "#586e75",
 		"editorCursor.background": "#002b36",
 		"editorGroup.border": "#00212b",
 		"editorGroup.dropBackground": "#2aa19844",
