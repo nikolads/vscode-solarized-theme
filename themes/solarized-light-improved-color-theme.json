@@ -2,6 +2,43 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Solarized Light Improved",
 	"type": "light",
+	"semanticHighlighting": true,
+
+	"semanticTokenColors": {
+		"keyword": "#268bd2",
+
+		"builtinType": "#b58900",
+		"enum": "#b58900",
+
+		"member": "#657b83",
+		"variable": "#657b83",
+		"enumMember": "#657b83",
+		"operator": "#657b83",
+
+		"comment": "#93a1a1",
+
+		"macro": "#d33682",
+
+		"number": "#cb4b16",
+		"string": "#d33682",
+		"interface": "#cb4b16",
+		"label": "#d33682",
+
+		"event": "#d33682",
+		"parameter": "#859900",
+		"property": "#859900",
+		"regexp": "#d33682",
+
+		"typeParameter": "#b58900",
+
+		"attribute": "#d33682",
+		"function.declaration": "#859900",
+		"variable.declaration": "#859900",
+
+		"lifetime": "#d33682",
+		"*.constant": "#d33682",
+	},
+
 	"colors": {
 		"activityBar.background": "#ddd6c1",
 		"activityBar.dropBackground": "#eee8d5",
@@ -339,6 +376,37 @@
 		//"widget.shadow": "#a8a8a8"
 	},
 	"tokenColors": [
+		// Scopes used by both syntax and semantic highlighting
+		//
+		// Semantic scopes use the color of these syntax scopes
+		// by default.
+		{
+			"scope": ["entity.name.namespace"],
+			"settings": { "foreground": "#859900" },
+		},
+		{
+			"scope": [
+				"entity.name.type.class",
+				"entity.name.type",
+				"storage.type.struct",
+			],
+			"settings": { "foreground": "#b58900" },
+		},
+		{
+			"scope": ["entity.name.function"],
+			"settings": { "foreground": "#2aa198" },
+		},
+
+		// Scopes used only by syntax highlighting
+		{
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#657b83",
+			}
+		},
+
 		{
 			"scope": [
 				"meta.embedded",
@@ -398,16 +466,8 @@
 		{
 			"scope": [
 				"entity.name.class",
-				"entity.name.type",
-				"entity.name.namespace",
 				"entity.name.scope-resolution"
 			],
-			"settings": {
-				"foreground": "#268BD2"
-			}
-		},
-		{
-			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#268BD2"
 			}

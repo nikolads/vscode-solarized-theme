@@ -2,9 +2,9 @@
     "name": "solarized-improved",
     "displayName": "Solarized Improved",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
-        "vscode": "^1.42.0"
+        "vscode": "^1.44.0"
     },
     "categories": [
         "Themes"
