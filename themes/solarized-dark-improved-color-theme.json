@@ -10,11 +10,12 @@
 		"builtinType": "#b58900",
 		"enum": "#b58900",
 
-		"member": "#839496",
-		"variable": "#839496",
 		"enumMember": "#839496",
-		"operator": "#839496",
+		"member": "#839496",
+		"property": "#839496",
+		"variable": "#839496",
 
+		"operator": "#586e75",
 		"comment": "#586e75",
 
 		"macro": "#d33682",
@@ -26,12 +27,12 @@
 
 		"event": "#d33682",
 		"parameter": "#859900",
-		"property": "#859900",
 		"regexp": "#d33682",
 
 		"typeParameter": "#b58900",
 
 		"attribute": "#d33682",
+		"function.attribute": "#d33682",
 		"function.declaration": "#859900",
 		"variable.declaration": "#859900",
 
@@ -52,10 +53,11 @@
 		"editor.background": "#002b36",
 		"editor.lineHighlightBackground": "#002b36",
 		"editor.lineHighlightBorder": "#002b36",
-		"editor.selectionBackground": "#274642",
-		"editor.selectionHighlightBackground": "#005a6faa",
-		"editor.wordHighlightBackground": "#004454aa",
-		"editor.wordHighlightStrongBackground": "#005a6faa",
+		// "editor.selectionBackground": "#274642",
+		// "editor.selectionHighlightBackground": "#005a6faa",
+		// "editor.wordHighlightBackground": "#004454aa",
+		// "editor.wordHighlightStrongBackground": "#005a6faa",
+		"editor.selectionBackground": "#268bd288",
 		"editorCursor.foreground": "#586e75",
 		"editorCursor.background": "#002b36",
 		"editorGroup.border": "#00212b",

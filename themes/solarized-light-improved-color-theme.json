@@ -10,11 +10,12 @@
 		"builtinType": "#b58900",
 		"enum": "#b58900",
 
-		"member": "#657b83",
-		"variable": "#657b83",
 		"enumMember": "#657b83",
-		"operator": "#657b83",
+		"member": "#657b83",
+		"property": "#657b83",
+		"variable": "#657b83",
 
+		"operator": "#93a1a1",
 		"comment": "#93a1a1",
 
 		"macro": "#d33682",
@@ -26,12 +27,12 @@
 
 		"event": "#d33682",
 		"parameter": "#859900",
-		"property": "#859900",
 		"regexp": "#d33682",
 
 		"typeParameter": "#b58900",
 
 		"attribute": "#d33682",
+		"function.attribute": "#d33682",
 		"function.declaration": "#859900",
 		"variable.declaration": "#859900",
 
@@ -55,7 +56,8 @@
 		"editor.background": "#fdf6e3",
 		"editor.lineHighlightBackground": "#fdf6e3",
 		"editor.lineHighlightBorder": "#fdf6e3",
-		"editor.selectionBackground": "#eee8d5",
+		// "editor.selectionBackground": "#eee8d5",
+		"editor.selectionBackground": "#268bd288",
 		"editorCursor.foreground": "#93a1a1",
 		"editorCursor.background": "#fdf6e3",
 		"editorGroup.border": "#ddd6c1",
