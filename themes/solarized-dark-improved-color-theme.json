@@ -24,6 +24,7 @@
 		"function": "#2aa198",
 		"member": "#2aa198",
 
+		// "punctuation": "#839496",
 		"operator": "#586e75",
 		"comment": "#586e75",
 
@@ -38,8 +39,8 @@
 		"event": "#d33682",
 		"regexp": "#d33682",
 
-		"attribute": "#d33682",
-		"function.attribute": "#d33682",
+		"attribute": "#cb4b16",
+		"function.attribute": "#cb4b16",
 		"function.declaration": "#859900",
 		"variable.declaration": "#859900",
 	},
@@ -412,6 +413,7 @@
 				"punctuation.section.angle-brackets.end.template.call.cpp",
 				"punctuation.definition.capture.begin.lambda.cpp",
 				"punctuation.definition.capture.end.lambda.cpp",
+				"meta.type_params.rust",
 			],
 			"settings": {
 				"foreground": "#586e75",
@@ -433,7 +435,10 @@
 			}
 		},
 		{
-			"scope": "keyword.control.directive",
+			"scope": [
+				"keyword.control.directive",
+				"meta.attribute.rust",
+			],
 			"settings": {
 				"foreground": "#cb4b16"
 			}
