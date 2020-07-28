@@ -414,7 +414,7 @@
 				"punctuation.definition.capture.end.lambda.cpp",
 			],
 			"settings": {
-				"foreground": "#657B83",
+				"foreground": "#586e75",
 			}
 		},
 		{
@@ -441,7 +441,7 @@
 		{
 			"scope": "storage.type.class.gtkdoc",
 			"settings": {
-				"foreground": "#657B83",
+				"foreground": "#586e75",
 				"fontStyle": "bold italic",
 			}
 		},
@@ -458,7 +458,7 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#657B83",
+				"foreground": "#586e75",
 				"fontStyle": "italic"
 			}
 		},
@@ -594,7 +594,7 @@
 		{
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#657B83"
+				"foreground": "#586e75"
 			}
 		},
 		{

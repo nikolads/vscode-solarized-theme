@@ -416,7 +416,7 @@
 				"punctuation.definition.capture.end.lambda.cpp",
 			],
 			"settings": {
-				"foreground": "#93A1A1",
+				"foreground": "#93a1a1",
 			}
 		},
 		{
@@ -443,7 +443,7 @@
 		{
 			"scope": "storage.type.class.gtkdoc",
 			"settings": {
-				"foreground": "#93A1A1",
+				"foreground": "#93a1a1",
 				"fontStyle": "bold italic",
 			}
 		},
