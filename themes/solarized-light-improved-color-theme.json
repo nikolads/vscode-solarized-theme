@@ -8,41 +8,44 @@
 		"keyword": "#268bd2",
 
 		"builtinType": "#b58900",
+		"class": "#b58900",
 		"enum": "#b58900",
+		"struct": "#b58900",
+		"typeParameter": "#b58900",
+
+		"interface": "#cb4b16",
 
 		"enumMember": "#657b83",
-		"member": "#657b83",
 		"property": "#657b83",
 		"variable": "#657b83",
+
+		"parameter": "#657b83",
+
+		"function": "#2aa198",
+		"member": "#2aa198",
 
 		"operator": "#93a1a1",
 		"comment": "#93a1a1",
 
-		"macro": "#d33682",
+		"macro": "#cb4b16",
 
-		"number": "#cb4b16",
+		"number": "#d33682",
 		"string": "#d33682",
-		"interface": "#cb4b16",
+		"*.constant": "#d33682",
+
 		"label": "#d33682",
-
+		"lifetime": "#d33682",
 		"event": "#d33682",
-		"parameter": "#859900",
 		"regexp": "#d33682",
-
-		"typeParameter": "#b58900",
 
 		"attribute": "#d33682",
 		"function.attribute": "#d33682",
 		"function.declaration": "#859900",
 		"variable.declaration": "#859900",
-
-		"lifetime": "#d33682",
-		"*.constant": "#d33682",
 	},
 
 	"colors": {
 		"activityBar.background": "#ddd6c1",
-		"activityBar.dropBackground": "#eee8d5",
 		"activityBar.foreground": "#584c27",
 		"activityBarBadge.background": "#b58900",
 		"badge.background": "#b58900aa",
@@ -56,8 +59,7 @@
 		"editor.background": "#fdf6e3",
 		"editor.lineHighlightBackground": "#fdf6e3",
 		"editor.lineHighlightBorder": "#fdf6e3",
-		// "editor.selectionBackground": "#eee8d5",
-		"editor.selectionBackground": "#268bd288",
+		"editor.selectionBackground": "#268bd280",
 		"editorCursor.foreground": "#93a1a1",
 		"editorCursor.background": "#fdf6e3",
 		"editorGroup.border": "#ddd6c1",
@@ -392,7 +394,6 @@
 			"scope": [
 				"entity.name.type.class",
 				"entity.name.type",
-				"storage.type.struct",
 			],
 			"settings": { "foreground": "#b58900" },
 		},
@@ -404,12 +405,49 @@
 		// Scopes used only by syntax highlighting
 		{
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
+				"storage.modifier.reference",
+				"storage.modifier.pointer",
+				"punctuation.terminator.statement",
+				"punctuation.separator",
+				"punctuation.section.angle-brackets.begin.template.call.cpp",
+				"punctuation.section.angle-brackets.end.template.call.cpp",
+				"punctuation.definition.capture.begin.lambda.cpp",
+				"punctuation.definition.capture.end.lambda.cpp",
 			],
 			"settings": {
-				"foreground": "#657b83",
+				"foreground": "#93A1A1",
 			}
 		},
+		{
+			"scope": [
+				"storage.modifier",
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#268bd2"
+			}
+		},
+		{
+			"scope": "storage.type.built-in.primitive",
+			"settings": {
+				"foreground": "#b58900"
+			}
+		},
+		{
+			"scope": "keyword.control.directive",
+			"settings": {
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"scope": "storage.type.class.gtkdoc",
+			"settings": {
+				"foreground": "#93A1A1",
+				"fontStyle": "bold italic",
+			}
+		},
+
 
 		{
 			"scope": [
@@ -430,7 +468,17 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#2AA198"
+				"foreground": "#D33682"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.json",
+				"string.quoted.double.xml",
+				"string.quoted.double.yaml",
+			],
+			"settings": {
+				"foreground": "#2aa198"
 			}
 		},
 		{
@@ -440,10 +488,23 @@
 			}
 		},
 		{
-			"scope": "constant.numeric",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+			],
 			"settings": {
 				"foreground": "#D33682"
 			}
+		},
+		{
+			"scope": [
+				"constant.language.json",
+				"constant.language.xml",
+				"constant.language.yaml",
+			],
+			"settings": {
+				"foreground": "#b58900"
+			},
 		},
 		{
 			"scope": [
@@ -451,13 +512,13 @@
 				"variable.other"
 			],
 			"settings": {
-				"foreground": "#268BD2"
+				"foreground": "#657b83"
 			}
 		},
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#859900"
+				"foreground": "#268BD2"
 			}
 		},
 		{
@@ -473,7 +534,7 @@
 				"entity.name.scope-resolution"
 			],
 			"settings": {
-				"foreground": "#268BD2"
+				"foreground": "#b58900"
 			}
 		},
 		{
@@ -493,7 +554,6 @@
 		},
 		{
 			"scope": [
-				"constant.language",
 				"meta.preprocessor"
 			],
 			"settings": {
